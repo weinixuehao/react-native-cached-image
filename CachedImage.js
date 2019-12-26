@@ -16,10 +16,11 @@ const {
     View,
     ImageBackground,
     ActivityIndicator,
-    NetInfo,
+    // NetInfo, Has removed from react-native as it was moved to react-native-netinfo
     Platform,
     StyleSheet,
 } = ReactNative;
+import NetInfo from "@react-native-community/netinfo";
 
 const styles = StyleSheet.create({
     image: {
